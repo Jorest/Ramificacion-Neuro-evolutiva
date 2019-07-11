@@ -1,4 +1,5 @@
-# Ramificacion-Neuro-evolutiva
+# Recycling NEAT populations in Atari Games
+## Ramificacion-Neuro-evolutiva 
 
 
 The idea of this project is to generate a population of agents that is able to solve a game using the NEAT algorithm, then use this population in a similar but different environment(game) and try to continue the evolution process in this new environment. 
@@ -7,4 +8,4 @@ Basically I wanted to replicate what happens in nature, when you have a species 
 
 For this experiment I used Atari shot them up games. I tried that the first game was the most simple one, and then evolved the remaining population in two different games, with a little bit more of complexity. This was made in order to emulate the evolution of the species when new elements are incorporated in the environment. 
 
-This experiment was made using the **NEAT (Neuroevolution of augmenting topologies) algorithm, this is a genetic algorithm that evolves a population of neural networks, dividing them into species. NEAT has many unique characteristics but what makes it so special, is how it accomplishes to do the crossover of the neural nets, mixing the topologies of both networks in a significant way,  using historical markers
+This experiment was made using the **NEAT** (Neuroevolution of augmenting topologies) algorithm, this is a genetic algorithm that evolves a population of neural networks, dividing them into species. NEAT has many unique characteristics but what makes it so special, is how it accomplishes to do the crossover of the neural nets, mixing the topologies of both networks in a significant way,  using historical markers
