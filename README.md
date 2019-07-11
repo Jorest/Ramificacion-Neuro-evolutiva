@@ -5,9 +5,11 @@
 The idea of this project is to generate a population of agents that is able to solve a game using the **NEAT (Neuroevolution of augmenting topologies)** algorithm, then use this population in a similar but different environment(game) and try to continue the evolution process in this new environment. 
 
 This experiment was done using:
-Open AI gym to genereate the Atari enviroments [OPENAI GYM](https://github.com/openai/gym)
+Open AI gym to genereate the Atari enviroments 
+[OPENAI GYM](https://github.com/openai/gym)
 
-NEAT-pthon as the implemantation of NEAT to create and evolve the neural nets [NEAT-PYTHON](https://neat-python.readthedocs.io/en/latest/)
+NEAT-pthon as the implemantation of NEAT to create and evolve the neural nets 
+[NEAT-PYTHON](https://neat-python.readthedocs.io/en/latest/)
 
 
 Basically I wanted to replicate what happens in nature, when you have a species or a group of species, and the environment they live in suffer a change(climate change for example). Then let those species evolve in this new environment over time. This project tries to emulate this process by using video games as the environments, and neural networks as the individuals of the species, where scoring enough points means survival (fitnes). 
