@@ -11,6 +11,10 @@ Open AI gym to genereate the Atari enviroments
 NEAT-pthon as the implemantation of NEAT to create and evolve the neural nets 
 [NEAT-PYTHON](https://neat-python.readthedocs.io/en/latest/)
 
+For serializing and de-serializing object structure, in this case the agents(NEAT-python also use it internally).
+[Pickle](https://docs.python.org/3/library/pickle.html/)
+
+
 
 Basically I wanted to replicate what happens in nature, when you have a species or a group of species, and the environment they live in suffer a change(climate change for example). Then let those species evolve in this new environment over time. This project tries to emulate this process by using video games as the environments, and neural networks as the individuals of the species, where scoring enough points means survival (fitnes). 
 
