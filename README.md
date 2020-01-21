@@ -21,3 +21,6 @@ Basically I wanted to replicate what happens in nature, when you have a species 
 For this experiment I used Atari shot-them-up games. I tried that the first game was the most simple one, and then evolved the remaining population in two different games, with a little bit more of complexity. This was made in order to emulate the evolution of the species when new elements are incorporated into the environment. 
 
 This experiment was made using the NEAT (Neuroevolution of augmenting topologies) algorithm, this is a genetic algorithm that evolves a population of neural networks, dividing them into species. NEAT has many unique characteristics but what makes it so special, is how it accomplishes to do the crossover of the neural nets, mixing the topologies of both networks in a significant way,  using historical markers
+
+Proyect presentaion: https://www.canva.com/design/DADxgGs4ces/phPG_6drAxn70WQU4e5p2g/view?utm_content=DADxgGs4ces&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
